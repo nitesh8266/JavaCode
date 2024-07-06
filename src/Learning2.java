@@ -2,20 +2,16 @@ public class Learning2
 {
 	public static void main(String[] args) 
 	{
-		int i = 876;
-		int sum = 0;
-		int remainder;
-		int temp = i;
-	
-		while (i>0)
+		int num = 123;
+		int rev = 0;
+		int rem;
+		
+		while(num>0)
 		{
-			remainder = i%10;
-			i = i/10;
-			sum = sum + remainder;
-					
+			rem = num%10;
+			num = num/10;
+			rev = rev*10+rem;
 		}
-		
-			System.out.print(sum);
-	}
-		
+		System.out.println(rev);
+	}		
 }

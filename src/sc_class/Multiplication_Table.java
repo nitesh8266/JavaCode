@@ -16,7 +16,7 @@ public class Multiplication_Table
 	{
 		int b = num*i;
 		
-		System.out.println(num+"*"+i+"= "+b);
+		System.out.println(num+" * "+i+" = "+b);
 	}
 	}
 }
